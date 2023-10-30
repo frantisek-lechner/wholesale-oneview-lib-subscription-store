@@ -1,0 +1,29 @@
+{
+  "module": "./esm/mod.js",
+  "main": "./script/mod.js",
+  "types": "./types/mod.d.ts",
+  "name": "@frantisek-lechner/wholesale-oneview-lib-subscription-store",
+  "version": "1.0.22",
+  "description": "The SubscriptionStore library for the Wholesale OneView",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://prima.corp.telenor.no/bitbucket/scm/wsw/wholesale-oneview-lib-subscription-store.git"
+  },
+  "bugs": {
+    "url": "https://prima.corp.telenor.no/bitbucket/projects/WSW/repos/wholesale-oneview-lib-subscription-store/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "exports": {
+    ".": {
+      "import": "./esm/mod.js",
+      "require": "./script/mod.js",
+      "types": "./types/mod.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "16.11.37"
+  }
+}
